@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food List</title>
 </head>
-<body>
+<style>
+    table, th, td {
+      border:2px solid black;
+      width: 10px;
+    }
+    </style>
+<body style="background-color:orange;">
     <h1>Welcome to my Food Hall</h1>
     <ul>
         <li>sushi</li>
@@ -14,9 +20,40 @@
         <li>Chili crab</li>
     </ul>
 
-    <img src="sushi.png" alt="sushi" width="250" height="250">
-    <img src="gumbo.jpg" alt="gumbo" width="250" height="250">
-    <img src="chicken-tikka.jpg" alt="chicken tika" width="250" height="250">
-    <img src="chilli crab.webp" alt="chili crab" width="250" height="250">
+    <img src="images/sushi.png" alt="sushi" width="250" height="250">
+    <img src="images/gumbo.jpg" alt="gumbo" width="250" height="250">
+    <img src="images/chicken-tikka.jpg" alt="chicken tika" width="250" height="250">
+    <img src="images/chilli crab.webp" alt="chili crab" width="250" height="250">
+
+    <h2>Table</h2>
+
+    <table style="width:100%">
+        <tr>
+          <th>Foods</th>
+          <th>Prices</th>
+          <th>Origin</th>
+        </tr>
+        <tr>
+          <td>sushi</td>
+          <td>$4.65</td>
+          <td>Japanese</td>
+        </tr>
+        <tr>
+          <td>Gumbo</td>
+          <td>$3.45</td>
+          <td>South Louisiana</td>
+        </tr>
+        <tr>
+            <td>Chicken-tikka masala</td>
+            <td>$6.45</td>
+            <td>Bangladesh</td>
+          </tr>
+          <tr>
+            <td>Chili crab</td>
+            <td>$3.70</td>
+            <td>Singapore</td>
+          </tr> 
+      </table>
+
 </body>
 </html>
